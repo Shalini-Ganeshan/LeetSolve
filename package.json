@@ -2,12 +2,13 @@
 	"name": "leetcode-clone",
 	"version": "0.1.0",
 	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start"
+},
+
 	"dependencies": {
 		"@codemirror/lang-javascript": "^6.1.6",
 		"@types/node": "18.15.3",
